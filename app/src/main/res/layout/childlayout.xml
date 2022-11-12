@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:padding="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/txtRamadanNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Ramadan"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/txtMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtRamadanNo"
+            android:layout_weight="1"
+            android:text="April/May"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtMonth"
+            android:layout_weight="1"
+            android:text="Day"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtSeheri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtDay"
+            android:layout_weight="1"
+            android:text="Seheri"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/txtIftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/txtSeheri"
+            android:layout_weight="1"
+            android:text="Ifter"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

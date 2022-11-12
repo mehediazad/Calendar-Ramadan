@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Ramadan_Time</string>
+
+    <string-array name="RamadanNo">
+
+        <item>01</item> <item>02</item> <item>03</item> <item>04</item> <item>05</item> <item>06</item> <item>07</item> <item>08</item> <item>09</item> <item>10</item> <item>11</item> <item>12</item> <item>13</item> <item>14</item> <item>15</item>
+        <item>16</item> <item>17</item> <item>18</item> <item>19</item> <item>20</item> <item>21</item> <item>22</item> <item>23</item> <item>24</item> <item>25</item> <item>26</item> <item>27</item> <item>28</item> <item>29</item> <item>30</item>
+
+    </string-array>
+
+    <string-array name="Month">
+        <item> 03 April,2022 </item>
+        <item> 04 April,2022 </item>
+        <item> 05 April,2022 </item>
+        <item> 06 April,2022 </item>
+        <item> 07 April,2022 </item>
+        <item> 08 April,2022 </item>
+        <item> 09 April,2022 </item>
+        <item> 10 April,2022 </item>
+        <item> 11 April,2022 </item>
+        <item> 12 April,2022 </item>
+        <item> 13 April,2022 </item>
+        <item> 14 April,2022 </item>
+        <item> 15 April,2022 </item>
+        <item> 16 April,2022 </item>
+        <item> 17 April,2022 </item>
+        <item> 18 April,2022 </item>
+        <item> 19 April,2022 </item>
+        <item> 20 April,2022 </item>
+        <item> 21 April,2022 </item>
+        <item> 22 April,2022 </item>
+        <item> 23 April,2022 </item>
+        <item> 24 April,2022 </item>
+        <item> 25 April,2022 </item>
+        <item> 26 April,2022 </item>
+        <item> 27 April,2022 </item>
+        <item> 28 April,2022 </item>
+        <item> 29 April,2022 </item>
+        <item> 30 April,2022 </item>
+        <item> 01 May,2022   </item>
+        <item> 02 May,2022   </item>
+
+    </string-array>
+
+    <string-array name="Day">
+        <item> Saturday </item>
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+    </string-array>
+
+    <string-array name="Seheri">
+        <item>04:13</item> <item>04:12</item> <item>04:12</item> <item>04:11</item> <item>04:10</item> <item>04:10</item> <item>04:10</item> <item>04:09</item> <item>04:09</item> <item>04:09</item> <item>04:08</item> <item>04:08</item> <item>04:08</item> <item>04:08</item> <item>04:07</item>
+        <item>04:07</item> <item>04:07</item> <item>04:06</item> <item>04:06</item> <item>04:06</item> <item>04:06</item> <item>04:06</item> <item>04:06</item> <item>04:05</item> <item>04:05</item> <item>04:05</item> <item>04:04</item> <item>04:04</item> <item>04:03</item> <item>04:02</item>
+    </string-array>
+
+    <string-array name="Ifter">
+        <item>06:32</item> <item>06:33</item> <item>06:34</item> <item>06:35</item> <item>06:36</item> <item>06:37</item> <item>06:37</item> <item>06:37</item> <item>06:38</item> <item>06:38</item> <item>06:39</item> <item>06:39</item> <item>06:40</item> <item>06:41</item> <item>06:42</item>
+        <item>06:43</item> <item>06:44</item> <item>06:45</item> <item>06:46</item> <item>06:47</item> <item>06:48</item> <item>06:48</item> <item>06:49</item> <item>06:50</item> <item>06:51</item> <item>06:52</item> <item>06:53</item> <item>06:53</item> <item>06:54</item> <item>06:55</item>
+    </string-array>
+</resources>

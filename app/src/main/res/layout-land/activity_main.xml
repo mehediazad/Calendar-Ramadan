@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#12F31D"
+        android:gravity="center"
+        android:text="বিভাগীয় শহর সূমহের  সেহেরী  ও  ইফতারের সময় সূচী। "
+        android:textAlignment="center"
+        android:textColor="#FF22"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/dhakaId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="ঢাকা"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ChitagonjId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="চট্টগ্রাম"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RajshahiId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="রাজশাহী"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RangpurId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="রংপুর"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/MymensingId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="ময়মনসিংহ"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BorisalgId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="বরিশাল"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/SylhetId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#12F31D"
+                android:text="সিলেট"
+                android:textAlignment="center"
+                android:textColor="#FF22"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
